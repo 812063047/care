@@ -1,0 +1,22 @@
+server:
+  port: 8083
+spring:
+  profiles:
+    active: dev
+  application:
+    name: service-vod
+  servlet:
+    multipart:
+      max-file-size: 1024MB
+      max-request-size: 1024MB
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+logging:
+  config: classpath:logging/logback-spring.xml
+aliyun:
+  vod:
+    file:
+      keyid: LTAI4GHoVx3rf7PGXgCBwxWr
+      keysecret: cYJvqbqpkNLFc0set4RlmT02RtI73r

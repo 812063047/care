@@ -1,0 +1,53 @@
+#配置端口
+server:
+  port: 8085
+spring:
+    #环境设置:dev test prod
+  profiles:
+    active: dev
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: service-sms
+  redis:
+    host: 10.60.2.187
+    port: 6380
+    timeout: 1800000
+    database: 0
+    lettuce:
+      pool:
+        max-active: 20
+        max-wait: -1
+        max-idle: 5
+        min-idle: 0
+    password: gbcom@gidata@123
+
+mybatis-plus:
+  #configuration:
+    #log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    #map-underscore-to-camel-case: true
+  global-config:
+    db-config:
+      logic-delete-value: true
+      logic-not-delete-value: false
+  mapper-locations: classpath:com/xzq/serviceSms/mapper/xml/*.xml
+logging:
+  config: classpath:logging/logback-spring.xml
+#开启熔断机制
+feign:
+  hystrix:
+    enabled: true
+# 设置hystrix超时时间，默认1000ms
+hystrix:
+  metrics:
+    polling-interval-ms: 6000
+aliyun:
+  sms:
+    file:
+      keyid: f83DCtJCSfZfCp8L
+      keysecret: ooOgfGcNgsm0X1rQQXEq55UJrKPyj6

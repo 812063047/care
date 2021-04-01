@@ -1,0 +1,20 @@
+server:
+  port: 8082
+spring:
+  profiles:
+    active: dev
+  application:
+    name: service-oss
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+logging:
+  config: classpath:logging/logback-spring.xml
+aliyun:
+  oss:
+    file:
+      endpoint: oss-cn-shanghai.aliyuncs.com
+      keyid: LTAI4GHoVx3rf7PGXgCBwxWr
+      keysecret: cYJvqbqpkNLFc0set4RlmT02RtI73r
+      bucketname: care-file
