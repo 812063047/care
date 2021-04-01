@@ -65,7 +65,7 @@ export default {
         if (!(/^1[34578]\d{9}$/.test(value))) {
           return callback(new Error('手机号码格式不正确'))
         }
-        return callback()
+          return callback()
       },
       submitLogin(){
         loginApi.submitLogin(this.user).then(Response =>{
