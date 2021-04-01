@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Thu Apr 01 14:00:35 CST 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance a816c00e-0178-8c04-e5f7-000006895038 
+on database directory D:\mybatis-plus-demo\nacos-server-1.1.4\nacos\data\derby-data with class loader org.springframework.boot.loader.LaunchedURLClassLoader@5010be6 
+Loaded from jar:file:/D:/mybatis-plus-demo/nacos-server-1.1.4/nacos/target/nacos-server.jar!/BOOT-INF/lib/derby-10.10.1.1.jar!/
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_152-b16
+user.dir=D:\mybatis-plus-demo\nacos-server-1.1.4\nacos\bin
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

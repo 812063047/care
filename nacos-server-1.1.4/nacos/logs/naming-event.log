@@ -1,0 +1,302 @@
+2021-04-01 09:38:07,318 INFO DEFAULT_GROUP@@service-sms {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8085:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 09:38:07,319 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-sms, ips: 10.60.3.22:8085_true,
+
+2021-04-01 09:38:18,958 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 09:38:18,958 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 10.60.3.22:8081_true,
+
+2021-04-01 09:38:23,614 INFO DEFAULT_GROUP@@service-cms {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8084:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 09:38:23,614 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-cms, ips: 10.60.3.22:8084_true,
+
+2021-04-01 09:38:30,432 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 09:38:30,433 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 10.60.3.22:8150_true,
+
+2021-04-01 10:07:23,727 INFO DEFAULT_GROUP@@service-cms {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.60.3.22:8084:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:07:23,727 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-cms, ips: 
+
+2021-04-01 10:07:36,212 INFO DEFAULT_GROUP@@service-cms {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8084:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:07:36,212 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-cms, ips: 10.60.3.22:8084_true,
+
+2021-04-01 10:07:42,823 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:07:42,823 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 
+
+2021-04-01 10:08:01,563 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:08:01,563 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 10.60.3.22:8150_true,
+
+2021-04-01 10:09:06,727 INFO {POS} {IP-DISABLED} valid: 10.60.3.22:8150@DEFAULT@DEFAULT_GROUP@@service-ucenter, region: unknown, msg: client timeout after 15000, last beat: 1617242930382
+
+2021-04-01 10:09:15,341 INFO service: DEFAULT_GROUP@@service-ucenter {POS} {IP-ENABLED} valid: 10.60.3.22:8150@DEFAULT, region: unknown, msg: client beat ok
+
+2021-04-01 10:09:37,373 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:09:37,373 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 
+
+2021-04-01 10:09:53,610 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:09:53,610 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 10.60.3.22:8150_true,
+
+2021-04-01 10:10:46,769 INFO {POS} {IP-DISABLED} valid: 10.60.3.22:8150@DEFAULT@DEFAULT_GROUP@@service-ucenter, region: unknown, msg: client timeout after 15000, last beat: 1617243030528
+
+2021-04-01 10:10:54,338 INFO service: DEFAULT_GROUP@@service-ucenter {POS} {IP-ENABLED} valid: 10.60.3.22:8150@DEFAULT, region: unknown, msg: client beat ok
+
+2021-04-01 10:10:58,043 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:10:58,043 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 
+
+2021-04-01 10:11:13,334 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:11:13,334 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 10.60.3.22:8150_true,
+
+2021-04-01 10:12:21,817 INFO {POS} {IP-DISABLED} valid: 10.60.3.22:8150@DEFAULT@DEFAULT_GROUP@@service-ucenter, region: unknown, msg: client timeout after 15000, last beat: 1617243125287
+
+2021-04-01 10:12:25,030 INFO service: DEFAULT_GROUP@@service-ucenter {POS} {IP-ENABLED} valid: 10.60.3.22:8150@DEFAULT, region: unknown, msg: client beat ok
+
+2021-04-01 10:13:05,354 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:13:05,354 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 
+
+2021-04-01 10:13:20,962 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:13:20,962 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 10.60.3.22:8150_true,
+
+2021-04-01 10:15:06,838 INFO {POS} {IP-DISABLED} valid: 10.60.3.22:8150@DEFAULT@DEFAULT_GROUP@@service-ucenter, region: unknown, msg: client timeout after 15000, last beat: 1617243287918
+
+2021-04-01 10:15:11,106 INFO service: DEFAULT_GROUP@@service-ucenter {POS} {IP-ENABLED} valid: 10.60.3.22:8150@DEFAULT, region: unknown, msg: client beat ok
+
+2021-04-01 10:15:58,758 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:15:58,758 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 
+
+2021-04-01 10:16:14,549 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:16:14,549 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 10.60.3.22:8150_true,
+
+2021-04-01 10:17:04,988 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:17:04,988 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 
+
+2021-04-01 10:17:22,074 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:17:22,075 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 10.60.3.22:8150_true,
+
+2021-04-01 10:17:56,893 INFO {POS} {IP-DISABLED} valid: 10.60.3.22:8150@DEFAULT@DEFAULT_GROUP@@service-ucenter, region: unknown, msg: client timeout after 15000, last beat: 1617243461053
+
+2021-04-01 10:18:12,763 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-04-01 10:18:12,763 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 
+
+2021-04-01 10:18:36,603 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:18:36,603 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 10.60.3.22:8150_true,
+
+2021-04-01 10:18:38,810 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:18:38,810 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 
+
+2021-04-01 10:18:57,814 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:18:57,814 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 10.60.3.22:8150_true,
+
+2021-04-01 10:22:30,685 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:22:30,685 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 
+
+2021-04-01 10:22:46,549 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:22:46,549 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 10.60.3.22:8150_true,
+
+2021-04-01 10:23:32,469 INFO {POS} {IP-DISABLED} valid: 10.60.3.22:8150@DEFAULT@DEFAULT_GROUP@@service-ucenter, region: unknown, msg: client timeout after 15000, last beat: 1617243796556
+
+2021-04-01 10:23:47,533 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-04-01 10:23:47,533 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 
+
+2021-04-01 10:24:25,885 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:24:25,885 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 10.60.3.22:8150_true,
+
+2021-04-01 10:25:40,645 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:25:40,646 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 
+
+2021-04-01 10:26:11,892 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:26:11,892 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 10.60.3.22:8150_true,
+
+2021-04-01 10:26:52,643 INFO {POS} {IP-DISABLED} valid: 10.60.3.22:8150@DEFAULT@DEFAULT_GROUP@@service-ucenter, region: unknown, msg: client timeout after 15000, last beat: 1617243996538
+
+2021-04-01 10:26:54,812 INFO service: DEFAULT_GROUP@@service-ucenter {POS} {IP-ENABLED} valid: 10.60.3.22:8150@DEFAULT, region: unknown, msg: client beat ok
+
+2021-04-01 10:28:43,032 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:28:43,032 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 
+
+2021-04-01 10:28:58,592 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:28:58,592 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 10.60.3.22:8150_true,
+
+2021-04-01 10:30:33,103 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:30:33,103 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 
+
+2021-04-01 10:30:48,543 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:30:48,543 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 10.60.3.22:8150_true,
+
+2021-04-01 10:33:50,064 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:33:50,065 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 
+
+2021-04-01 10:34:06,245 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:34:06,245 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 10.60.3.22:8150_true,
+
+2021-04-01 10:34:46,895 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:34:46,895 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 
+
+2021-04-01 10:35:05,661 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 10:35:05,661 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 10.60.3.22:8150_true,
+
+2021-04-01 11:05:07,918 INFO {POS} {IP-DISABLED} valid: 10.60.3.22:8150@DEFAULT@DEFAULT_GROUP@@service-ucenter, region: unknown, msg: client timeout after 15000, last beat: 1617246290067
+
+2021-04-01 11:05:13,176 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 10.60.3.22:8150_false,
+
+2021-04-01 11:05:16,486 INFO service: DEFAULT_GROUP@@service-ucenter {POS} {IP-ENABLED} valid: 10.60.3.22:8150@DEFAULT, region: unknown, msg: client beat ok
+
+2021-04-01 11:35:18,038 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 11:35:18,038 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 
+
+2021-04-01 11:35:29,762 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.60.3.22:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 11:35:29,762 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2021-04-01 11:35:31,629 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 11:35:31,629 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 10.60.3.22:8150_true,
+
+2021-04-01 11:35:51,222 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 11:35:51,222 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 10.60.3.22:8081_true,
+
+2021-04-01 11:43:49,210 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.60.3.22:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 11:43:49,210 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2021-04-01 11:44:03,435 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 11:44:03,436 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 10.60.3.22:8081_true,
+
+2021-04-01 13:18:44,544 INFO {POS} {IP-DISABLED} valid: 10.60.3.22:8150@DEFAULT@DEFAULT_GROUP@@service-ucenter, region: unknown, msg: client timeout after 15000, last beat: 1617253286856
+
+2021-04-01 13:18:44,546 INFO {POS} {IP-DISABLED} valid: 10.60.3.22:8084@DEFAULT@DEFAULT_GROUP@@service-cms, region: unknown, msg: client timeout after 15000, last beat: 1617253287515
+
+2021-04-01 13:18:58,144 INFO {POS} {IP-DISABLED} valid: 10.60.3.22:8085@DEFAULT@DEFAULT_GROUP@@service-sms, region: unknown, msg: client timeout after 15000, last beat: 1617253286527
+
+2021-04-01 13:18:58,145 INFO {POS} {IP-DISABLED} valid: 10.60.3.22:8081@DEFAULT@DEFAULT_GROUP@@service-edu, region: unknown, msg: client timeout after 15000, last beat: 1617253286527
+
+2021-04-01 13:18:58,146 INFO service: DEFAULT_GROUP@@service-edu {POS} {IP-ENABLED} valid: 10.60.3.22:8081@DEFAULT, region: unknown, msg: client beat ok
+
+2021-04-01 13:18:58,146 INFO service: DEFAULT_GROUP@@service-sms {POS} {IP-ENABLED} valid: 10.60.3.22:8085@DEFAULT, region: unknown, msg: client beat ok
+
+2021-04-01 13:18:58,147 INFO service: DEFAULT_GROUP@@service-ucenter {POS} {IP-ENABLED} valid: 10.60.3.22:8150@DEFAULT, region: unknown, msg: client beat ok
+
+2021-04-01 13:18:58,147 INFO service: DEFAULT_GROUP@@service-cms {POS} {IP-ENABLED} valid: 10.60.3.22:8084@DEFAULT, region: unknown, msg: client beat ok
+
+2021-04-01 13:19:00,356 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.60.3.22:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 13:19:00,356 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2021-04-01 13:19:00,356 INFO DEFAULT_GROUP@@service-sms {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.60.3.22:8085:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 13:19:00,356 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-sms, ips: 
+
+2021-04-01 13:19:00,356 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 13:19:00,356 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 
+
+2021-04-01 13:19:00,356 INFO DEFAULT_GROUP@@service-cms {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.60.3.22:8084:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 13:19:00,356 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-cms, ips: 
+
+2021-04-01 13:19:00,562 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 13:19:00,562 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 10.60.3.22:8150_true,
+
+2021-04-01 13:19:04,551 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 13:19:04,551 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 10.60.3.22:8081_true,
+
+2021-04-01 13:19:04,597 INFO DEFAULT_GROUP@@service-cms {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8084:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 13:19:04,597 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-cms, ips: 10.60.3.22:8084_true,
+
+2021-04-01 13:19:04,603 INFO DEFAULT_GROUP@@service-sms {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8085:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 13:19:04,603 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-sms, ips: 10.60.3.22:8085_true,
+
+2021-04-01 13:41:55,553 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.60.3.22:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 13:41:55,553 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2021-04-01 13:42:32,097 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 13:42:32,097 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 10.60.3.22:8081_true,
+
+2021-04-01 14:02:44,135 INFO DEFAULT_GROUP@@service-cms {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8084:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 14:02:44,141 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-cms, ips: 10.60.3.22:8084_true,
+
+2021-04-01 14:02:49,585 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 14:02:49,585 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 10.60.3.22:8081_true,
+
+2021-04-01 14:03:10,748 INFO DEFAULT_GROUP@@service-sms {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8085:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 14:03:10,748 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-sms, ips: 10.60.3.22:8085_true,
+
+2021-04-01 14:03:17,799 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 14:03:17,799 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 10.60.3.22:8150_true,
+
+2021-04-01 14:24:54,536 INFO DEFAULT_GROUP@@service-sms {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.60.3.22:8085:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 14:24:54,537 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-sms, ips: 
+
+2021-04-01 14:52:54,215 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.60.3.22:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 14:52:54,215 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2021-04-01 14:53:31,571 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 14:53:31,571 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 10.60.3.22:8081_true,
+
+2021-04-01 15:54:14,820 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.60.3.22:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 15:54:14,820 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2021-04-01 15:59:52,646 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 15:59:52,646 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 10.60.3.22:8081_true,
+
+2021-04-01 16:18:36,537 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 16:18:36,537 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 
+
+2021-04-01 16:18:54,794 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.60.3.22:8150:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-01 16:18:54,795 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 10.60.3.22:8150_true,
+
+2021-04-01 16:22:43,213 INFO {POS} {IP-DISABLED} valid: 10.60.3.22:8150@DEFAULT@DEFAULT_GROUP@@service-ucenter, region: unknown, msg: client timeout after 15000, last beat: 1617265343866
+
+2021-04-01 16:22:44,573 INFO {POS} {IP-DISABLED} valid: 10.60.3.22:8081@DEFAULT@DEFAULT_GROUP@@service-edu, region: unknown, msg: client timeout after 15000, last beat: 1617265346873
+
